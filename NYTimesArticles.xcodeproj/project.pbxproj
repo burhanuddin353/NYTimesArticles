@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		44E53143258BE7A0004D841C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E53142258BE7A0004D841C /* AppDelegate.swift */; };
-		44E53145258BE7A0004D841C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E53144258BE7A0004D841C /* SceneDelegate.swift */; };
 		44E53147258BE7A0004D841C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E53146258BE7A0004D841C /* ViewController.swift */; };
 		44E5314A258BE7A0004D841C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E53148258BE7A0004D841C /* Main.storyboard */; };
 		44E5314C258BE7A3004D841C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E5314B258BE7A3004D841C /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		44E5313F258BE7A0004D841C /* NYTimesArticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTimesArticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E53142258BE7A0004D841C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44E53144258BE7A0004D841C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		44E53146258BE7A0004D841C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44E53149258BE7A0004D841C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44E5314B258BE7A3004D841C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				44E53142258BE7A0004D841C /* AppDelegate.swift */,
-				44E53144258BE7A0004D841C /* SceneDelegate.swift */,
 				44E53146258BE7A0004D841C /* ViewController.swift */,
 				44E53148258BE7A0004D841C /* Main.storyboard */,
 				44E5314B258BE7A3004D841C /* Assets.xcassets */,
@@ -260,7 +257,6 @@
 			files = (
 				44E53147258BE7A0004D841C /* ViewController.swift in Sources */,
 				44E53143258BE7A0004D841C /* AppDelegate.swift in Sources */,
-				44E53145258BE7A0004D841C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +435,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8E73FE926E;
 				INFOPLIST_FILE = NYTimesArticles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8E73FE926E;
 				INFOPLIST_FILE = NYTimesArticles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
