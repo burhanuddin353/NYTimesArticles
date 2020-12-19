@@ -101,6 +101,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		44CECEA1258E1A5600B30565 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44E53146258BE7A0004D841C /* WebViewController.swift */,
+				444B40EA258DC9AC00AB59C9 /* ArticlesViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		44CECEA2258E1A7500B30565 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44E53188258CA820004D841C /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		44CECEA3258E1A8500B30565 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44CECE87258DF15C00B30565 /* ArticleCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		44CECEA7258E1A9500B30565 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				44E53183258CA7C5004D841C /* Network.swift */,
+				44E5318D258CAB84004D841C /* Constants.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		44E53136258BE7A0004D841C = {
 			isa = PBXGroup;
 			children = (
@@ -127,12 +161,10 @@
 			isa = PBXGroup;
 			children = (
 				44E53142258BE7A0004D841C /* AppDelegate.swift */,
-				44E53183258CA7C5004D841C /* Network.swift */,
-				44E5318D258CAB84004D841C /* Constants.swift */,
-				44E53188258CA820004D841C /* Article.swift */,
-				44E53146258BE7A0004D841C /* WebViewController.swift */,
-				444B40EA258DC9AC00AB59C9 /* ArticlesViewController.swift */,
-				44CECE87258DF15C00B30565 /* ArticleCell.swift */,
+				44CECEA7258E1A9500B30565 /* Shared */,
+				44CECEA2258E1A7500B30565 /* Models */,
+				44CECEA1258E1A5600B30565 /* ViewControllers */,
+				44CECEA3258E1A8500B30565 /* Views */,
 				44E53148258BE7A0004D841C /* Main.storyboard */,
 				44E5314B258BE7A3004D841C /* Assets.xcassets */,
 				44E5314D258BE7A3004D841C /* LaunchScreen.storyboard */,
