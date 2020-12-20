@@ -53,26 +53,26 @@
                                                             <rect key="frame" x="0.0" y="26.5" width="303" height="30"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Authors" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kl6-Sc-L75">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="198" height="30"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="197" height="30"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="748" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="fMQ-To-lV4">
-                                                                    <rect key="frame" x="208" y="0.0" width="95" height="30"/>
+                                                                    <rect key="frame" x="207" y="0.0" width="96" height="30"/>
                                                                     <subviews>
                                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fjn-jH-4Nb">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="25" height="30"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="26" height="30"/>
                                                                             <subviews>
                                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Calendar" translatesAutoresizingMaskIntoConstraints="NO" id="MhD-ug-e6l">
-                                                                                    <rect key="frame" x="0.0" y="0.0" width="25" height="30"/>
+                                                                                    <rect key="frame" x="0.0" y="0.0" width="26" height="30"/>
                                                                                     <constraints>
                                                                                         <constraint firstAttribute="height" constant="30" id="3u5-Ge-0Oz"/>
-                                                                                        <constraint firstAttribute="width" constant="25" id="kce-Df-Np1"/>
+                                                                                        <constraint firstAttribute="width" constant="26" id="kce-Df-Np1"/>
                                                                                     </constraints>
                                                                                 </imageView>
-                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2O-Y9-uA7">
-                                                                                    <rect key="frame" x="2" y="11" width="21" height="17"/>
+                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2O-Y9-uA7">
+                                                                                    <rect key="frame" x="2" y="11" width="22" height="17"/>
                                                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="9"/>
                                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                     <nil key="highlightedColor"/>
@@ -91,7 +91,7 @@
                                                                             </constraints>
                                                                         </view>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="12-03-2018" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nye-2t-nrV">
-                                                                            <rect key="frame" x="27" y="7.5" width="68" height="14.5"/>
+                                                                            <rect key="frame" x="28" y="7.5" width="68" height="14.5"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="68" id="4Ku-Qw-f8x"/>
                                                                             </constraints>
