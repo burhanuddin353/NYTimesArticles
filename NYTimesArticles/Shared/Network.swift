@@ -14,11 +14,13 @@ enum NetworkError: Error {
     case serverDown
     case invalidResponse
     case invalidParameters
+}
 
-    var localizedDescription: String {
+extension NetworkError: LocalizedError {
 
+    public var errorDescription: String? {
         switch self {
-        
+
         case .invalidURL:
             return NSLocalizedString("Bad Error", comment: "My error")
 
