@@ -48,6 +48,8 @@ class ArticlesViewController: UITableViewController {
 
             result.ifFailure {
 
+                let alert = UIAlertController(title: "Error", message: result.error!.localizedDescription, preferredStyle: .alert)
+                strongSelf.present(alert, animated: true)
             }
         }
     }

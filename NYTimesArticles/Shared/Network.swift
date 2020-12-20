@@ -14,6 +14,24 @@ enum NetworkError: Error {
     case serverDown
     case invalidResponse
     case invalidParameters
+
+    var localizedDescription: String {
+
+        switch self {
+        
+        case .invalidURL:
+            return NSLocalizedString("Bad Error", comment: "My error")
+
+        case .serverDown:
+            return NSLocalizedString("Server is down. Please try again.", comment: "My error")
+
+        case .invalidResponse:
+            return NSLocalizedString("Server is down. Please try again.", comment: "My error")
+
+        case .invalidParameters:
+            return NSLocalizedString("BadError", comment: "My error")
+        }
+    }
 }
 
 class Network {
@@ -38,15 +56,17 @@ class Network {
                     decoder.keyDecodingStrategy = .convertFromSnakeCase
                     if let articles = try? decoder.decode([Article].self, from: data) {
                         completionHandler(.success(articles))
+                    } else {
+                        completionHandler(.failure(NetworkError.invalidResponse))
                     }
 
                 } else {
-
+                    completionHandler(.failure(NetworkError.invalidResponse))
                 }
             }
 
             response.result.ifFailure {
-                
+                completionHandler(.failure(response.result.error!))
             }
         }
     }
